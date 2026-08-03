@@ -25,12 +25,12 @@ One explainable scoring engine with four modules on top of it:
 ## Key Features
 
 - Explainable, category level match scoring blending LLM judgment with embedding similarity
-- Resume ingestion from PDF, DOCX, and TXT (parsed in-browser, never as server binaries)
+- Resume ingestion from PDF, DOCX, and TXT (parsed in browser, never as server binaries)
 - Reusable libraries of saved resumes and job descriptions with AI structured parsing
-- Anonymous (bias-safe) screening mode
+- Anonymous (bias safe) screening mode
 - Role-based access: user, recruiter, admin with a dedicated Access Denied experience
 - Admin dashboard: users, analyses, revenue, and average match score
-- x402 micropayments in USDC on Base (EIP-3009 authorizations), with prices shown in ₹ INR
+- x402 micropayments in USDC on Base (EIP 3009 authorizations), with prices shown in ₹ INR
 - Sandbox payment mode for testing without a wallet
 - Public REST API that issues HTTP 402 payment challenges for external agents
 
