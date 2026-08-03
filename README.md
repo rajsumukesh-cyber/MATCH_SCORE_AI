@@ -41,7 +41,7 @@ One explainable scoring engine with four modules on top of it:
 | Frontend | TanStack Start, React 19, TypeScript, Tailwind CSS v4, Framer Motion |
 | Backend & Auth | Lovable Cloud (Supabase) with Row Level Security |
 | AI | Lovable AI Gateway chat completions with JSON schema enforcement + embeddings |
-| Payments | x402 protocol, EIP-3009 USDC authorizations via Viem |
+| Payments | x402 protocol, EIP 3009 USDC authorizations via Viem |
 | Storage | Private bucket for resumes with owner-only access policies |
 
 Server logic runs as typed TanStack `createServerFn` RPCs; external/webhook traffic uses public API routes. All tables enforce RLS, roles live in a separate `user_roles` table checked through a security definer function, and sensitive actions are written to an audit log.
@@ -62,10 +62,10 @@ If no receiving wallet is configured, the platform falls back to a clearly label
 
 ## Roadmap
 
-- Bulk recruiter ranking and role-level leaderboards
+- Bulk recruiter ranking and role level leaderboards
 - Live FX rates instead of a fixed USD→INR conversion
 - AI-generated interview question sets per candidate
-- Employer-side analytics on funnel quality and bias trends
+- Employer side analytics on funnel quality and bias trends
 
 
 
